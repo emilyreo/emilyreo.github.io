@@ -14,8 +14,8 @@ app.get('/store', (req, res) => {
     res.sendFile(__dirname + '/views/store.html')
 })
 
-app.get('/carousel', (req, res) => {
-    res.sendFile(__dirname + '/views/carousel.html')
+app.get('/style.css', (req, res) => {
+    res.sendFile(__dirname + '/style.css')
 })
 
 app.get('/fieldset', (req, res) => {
@@ -36,7 +36,7 @@ app.get('/formBasics', (req, res) => {
 
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/views/berkshireHathaway.html')
+    res.sendFile(__dirname + '/index.html')
 })
 
 //Listen on port 8080
