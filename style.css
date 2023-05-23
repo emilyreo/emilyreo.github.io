@@ -1,10 +1,10 @@
 body {
-    background-image: url('/image/photos/adobestars_1.gif');
+    background-image: url('/adobestars_1.gif');
     background-size: 100%;
     background-position: fixed;
-    background-color: pink;
+    background-color: black;
     font-family: "Press Start 2P", monospace;
-    color: pink;
+    color: black;
     margin: auto;
     justify-items: center;
   }
