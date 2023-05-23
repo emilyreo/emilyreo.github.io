@@ -11,7 +11,7 @@ app.use('/js', express.static(__dirname + 'public/js'))
 app.use('/img', express.static(__dirname + 'public/img'))
 
 app.get('/store', (req, res) => {
-    res.sendFile(__dirname + '/views/store.html')
+    res.sendFile(__dirname + '/store.html')
 })
 
 app.get('/style.css', (req, res) => {
