@@ -1,5 +1,5 @@
 body {
-    background-image: url('adobestars1.gif');
+    background-image: url('https://live.staticflickr.com/65535/52921037269_34d2bba4f3_o.gif');
     background-size: 100%;
     background-position: fixed;
     background-color: black;
@@ -386,9 +386,8 @@ body {
     width: 85%;
     max-width: 1050px;
     position: relative;
-    border: 5px black solid;
+    border: 0px black solid;
     border-radius: 50%;
-    z-index: -2;
     margin-bottom: 120px;
   }
 
